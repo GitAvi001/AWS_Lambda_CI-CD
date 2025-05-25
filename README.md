@@ -1,1 +1,3 @@
-# AWS_Lambda_CI-CD
+### AWS Lambda Deployment with GitHub Actions
+
+This repository uses a GitHub Actions workflow to automate the deployment of an AWS Lambda function. On every push to the `main` branch, the workflow zips the repository code and updates the `GithubActionFunction` Lambda function in the `eu-north-1` region using the AWS CLI. This ensures seamless continuous deployment of code changes to the Lambda function.
